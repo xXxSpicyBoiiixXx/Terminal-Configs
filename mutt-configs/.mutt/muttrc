@@ -1,0 +1,25 @@
+########### IMAP ###############
+set imap_user = "username@gmail.com"
+set imap_pass = "mailbox password"
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com/
+set record = "imaps://imap.gmail.com/[GMAIL]/Sent Mail"
+set postponed = "imaps://imap.gmail.com/[GMAIL]/Drafts" 
+set mbox = "imaps://imap.gmail.com/[GMAIL]/All Mail" 
+set header_cache = "~/.mutt/cache/headers" 
+set message_cachedir = "~/.mutt/cache/bodies" 
+set certificate_file = "~/.mutt/certificates" 
+
+########### SMTP ##############
+set smtp_url = "smtp://username@smtp.gmail.com:587/"
+set smtp_pass = $imaps_pass
+set ssl_force_tls = yes 
+
+########### COMP #############
+set editor = "vim" 
+set edit_headers = yes 
+set charset = UTF-8
+unset use_domain
+set realname = "Name"
+set from = "username@gmail.com" 
+set use_from = yes 

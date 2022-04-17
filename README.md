@@ -11,7 +11,7 @@ This repo includes configurations for (I will update this as I go along)
 - vim 
 - neovim (I'm still getting the hang of this, not sure if I totally like this yet) 
 - tmux (Coming soon)
-- mutt (Coming soon) 
+- mutt (Set up the basics, but mostly configured!)) 
 
 
 
