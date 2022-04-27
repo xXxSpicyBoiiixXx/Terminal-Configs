@@ -77,6 +77,9 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" This is used to fix the macbook backspace issue in insert mode 
+set backspace=indent,eol,start
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " Plugin code goes here.
